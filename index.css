@@ -1,0 +1,49 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+}
+
+.logo {
+  width: 90px;
+  height: 90px;
+}
+
+.nav-list {
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-list > li {
+  margin: 25px;
+}
+
+.res-card {
+  margin: 10px;
+  padding: 5px;
+  width: 200px;
+  height: 500px;
+  border: 1px solid black;
+}
+
+.res-card:hover {
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+.search {
+  padding: 10px;
+}
+
+.res-logo {
+  width: 100%;
+}
+
+.res-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.filter-btn {
+  margin: 10px;
+}

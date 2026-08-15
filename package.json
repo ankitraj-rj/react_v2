@@ -1,0 +1,24 @@
+{
+  "name": "react_v2",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/ankitraj-rj/react_v2#readme",
+  "bugs": {
+    "url": "https://github.com/ankitraj-rj/react_v2/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ankitraj-rj/react_v2.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "parcel": "^2.16.4",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  }
+}
