@@ -22,7 +22,9 @@ const Body = () => {
     setListOfRestaurants(restaurants);
   };
 
-  return listOfRestaurants.length === 0 ? <Shimmer/> : (
+  return listOfRestaurants.length === 0 ? (
+    <Shimmer />
+  ) : (
     <div>
       <button
         className="filter-btn"
