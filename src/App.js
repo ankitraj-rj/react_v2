@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import "../index.css";
 import Header from "./components/Header";
 import Body from "./components/Body";
+import About
 import { createBrowserRouter } from "react-router-dom";
 
 const AppLayout = () => {
