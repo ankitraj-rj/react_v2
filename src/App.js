@@ -4,7 +4,7 @@ import "../index.css";
 import Header from "./components/Header";
 import Body from "./components/Body";
 import About from "./components/About";
-import { createBrowserRouter } from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 const AppLayout = () => {
   return (
