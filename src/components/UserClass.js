@@ -18,6 +18,7 @@ class UserClass extends React.Component {
       <div className="user-card">
         {/* <h1>Count: {this.state.count}</h1> */}
         <h1>Count: {count}</h1>
+        <button></button>
         <h2>Name: {name}</h2>
         <h3>Location: {location}</h3>
         <h4>Contact: akshaymarch7</h4>
