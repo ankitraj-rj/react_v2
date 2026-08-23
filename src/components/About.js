@@ -8,6 +8,11 @@ class About extends Component {
     super(props);
     console.log("parent constructor");
   }
+
+  componentDidMount() {
+    console.log("Parent Did mount called");
+  }
+
   render() {
     console.log("parent render");
     return (
