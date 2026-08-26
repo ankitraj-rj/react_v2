@@ -27,10 +27,7 @@ class UserClass extends React.Component {
 
     return (
       <div className="user-card">
-        <img
-          src={picture.large}
-          alt={`${name.first} ${name.last}`}
-        />
+        <img src={picture.large} alt={`${name.first} ${name.last}`} />
 
         <h2>
           Name: {name.first} {name.last}
