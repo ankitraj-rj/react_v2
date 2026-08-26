@@ -1,7 +1,7 @@
 {
   "name": "react_v2",
   "version": "1.0.0",
-  "description": "",
+  "description": "React food ordering app",
   "homepage": "https://github.com/ankitraj-rj/react_v2#readme",
   "bugs": {
     "url": "https://github.com/ankitraj-rj/react_v2/issues"
@@ -14,7 +14,8 @@
   "author": "",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
   },
   "dependencies": {
     "parcel": "^2.16.4",
