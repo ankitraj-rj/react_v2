@@ -1,9 +1,14 @@
-import React from 'react'
-
 const Contact = () => {
   return (
-    <div>Contact</div>
-  )
-}
+    <div className="contact">
+      <h1>Contact Us</h1>
 
-export default Contact
+      <p>
+        You can contact us at
+        support@example.com
+      </p>
+    </div>
+  );
+};
+
+export default Contact;
