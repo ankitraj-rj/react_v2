@@ -1,11 +1,11 @@
 import User from "./User";
 import UserClass from "./UserClass";
-// import React from "react";
 import { Component } from "react";
 
 class About extends Component {
   constructor(props) {
     super(props);
+
     console.log("parent constructor");
   }
 
@@ -15,26 +15,27 @@ class About extends Component {
 
   render() {
     console.log("parent render");
+
     return (
-      <div>
+      <div className="about">
         <h1>About Section</h1>
-        <h3>This is Namaste React</h3>
-        {/* <User name={"Akshay Saini (function) "} /> */}
-        <UserClass name={"Akshay Saini (class) "} location={"patna"} />
+
+        <h3>
+          This is Namaste React
+        </h3>
+
+        <User
+          name="Akshay Saini (function)"
+          location="Patna"
+        />
+
+        <UserClass
+          name="Akshay Saini (class)"
+          location="Patna"
+        />
       </div>
     );
   }
 }
-
-// const About = () => {
-//   return (
-//     <div>
-//       <h1>About Section</h1>
-//       <h3>This is Namaste React</h3>
-//       <User name={"Akshay Saini (function) "} />
-//       <UserClass name={"Akshay Saini (class) "} location={"patna"} />
-//     </div>
-//   );
-// };
 
 export default About;
