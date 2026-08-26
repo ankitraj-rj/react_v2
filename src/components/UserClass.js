@@ -11,8 +11,12 @@ class UserClass extends React.Component {
     //console.log("Child Constructor");
   }
 
-  componentDidMount() {
+  async componentDidMount() {
     //console.log("child Did mount called");
+    const data = await fetch("https://randomuser.me/api/");
+    const jsonData = await data.json();
+
+    console.log(jsonData);
   }
 
   render() {
