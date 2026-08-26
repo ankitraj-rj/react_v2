@@ -5,46 +5,30 @@ class UserClass extends React.Component {
     super(props);
 
     this.state = {
-      count: 0,
-    };
+      userInfo : {
 
-    //console.log("Child Constructor");
+      }
+    }
+
   }
 
   async componentDidMount() {
-    //console.log("child Did mount called");
+    // fetching random user data .. 
     const data = await fetch("https://randomuser.me/api/");
     const jsonData = await data.json();
-
     console.log(jsonData);
   }
 
   render() {
-    //console.log("Child Render");
-
-    const { name, location } = this.props;
-    // destructuring state varibale ..
-    const { count } = this.state;
-
     return (
       <div className="user-card">
-        {/* <h1>Count: {this.state.count}</h1> */}
-        <h1>Count: {count}</h1>
-        <button
-          onClick={() => {
-            this.setState({
-              count: count + 1,
-            });
-          }}
-        >
-          Count Increse
-        </button>
         <h2>Name: {name}</h2>
         <h3>Location: {location}</h3>
         <h4>Contact: akshaymarch7</h4>
       </div>
     );
   }
+  
 }
 
 export default UserClass;
