@@ -18,6 +18,9 @@ const User = ({ name, location }) => {
       <h4>
         Contact: akshaymarch7
       </h4>
+      <h4>
+        Gender:
+      </h4>
     </div>
   );
 };
